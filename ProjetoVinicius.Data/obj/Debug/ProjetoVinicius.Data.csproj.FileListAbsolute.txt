@@ -1,0 +1,14 @@
+C:\projetos\ProjetoVinicius2\ProjetoVinicius.Data\obj\Debug\ProjetoVinicius.Data.csproj.CoreCompileInputs.cache
+C:\projetos\ProjetoVinicius2\ProjetoVinicius.Data\bin\Debug\ProjetoVinicius.Data.dll.config
+C:\projetos\ProjetoVinicius2\ProjetoVinicius.Data\bin\Debug\ProjetoVinicius.Data.dll
+C:\projetos\ProjetoVinicius2\ProjetoVinicius.Data\bin\Debug\ProjetoVinicius.Data.pdb
+C:\projetos\ProjetoVinicius2\ProjetoVinicius.Data\bin\Debug\EntityFramework.dll
+C:\projetos\ProjetoVinicius2\ProjetoVinicius.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\projetos\ProjetoVinicius2\ProjetoVinicius.Data\bin\Debug\ProjetoVinicius.Domain.dll
+C:\projetos\ProjetoVinicius2\ProjetoVinicius.Data\bin\Debug\ProjetoVinicius.Domain.pdb
+C:\projetos\ProjetoVinicius2\ProjetoVinicius.Data\bin\Debug\EntityFramework.xml
+C:\projetos\ProjetoVinicius2\ProjetoVinicius.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\projetos\ProjetoVinicius2\ProjetoVinicius.Data\obj\Debug\ProjetoVinicius.Data.csprojAssemblyReference.cache
+C:\projetos\ProjetoVinicius2\ProjetoVinicius.Data\obj\Debug\ProjetoVinicius.Data.csproj.CopyComplete
+C:\projetos\ProjetoVinicius2\ProjetoVinicius.Data\obj\Debug\ProjetoVinicius.Data.dll
+C:\projetos\ProjetoVinicius2\ProjetoVinicius.Data\obj\Debug\ProjetoVinicius.Data.pdb

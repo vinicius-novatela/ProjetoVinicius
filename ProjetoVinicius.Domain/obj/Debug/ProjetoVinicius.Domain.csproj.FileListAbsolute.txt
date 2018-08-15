@@ -1,0 +1,6 @@
+C:\projetos\ProjetoVinicius2\ProjetoVinicius.Domain\bin\Debug\ProjetoVinicius.Domain.dll
+C:\projetos\ProjetoVinicius2\ProjetoVinicius.Domain\bin\Debug\ProjetoVinicius.Domain.pdb
+C:\projetos\ProjetoVinicius2\ProjetoVinicius.Domain\obj\Debug\ProjetoVinicius.Domain.csproj.CoreCompileInputs.cache
+C:\projetos\ProjetoVinicius2\ProjetoVinicius.Domain\obj\Debug\ProjetoVinicius.Domain.dll
+C:\projetos\ProjetoVinicius2\ProjetoVinicius.Domain\obj\Debug\ProjetoVinicius.Domain.pdb
+C:\projetos\ProjetoVinicius2\ProjetoVinicius.Domain\obj\Debug\ProjetoVinicius.Domain.csprojAssemblyReference.cache
