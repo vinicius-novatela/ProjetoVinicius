@@ -33,9 +33,9 @@ namespace ProjetoVinicius.Services
             return _PessoaRepository.GetPessoa(id);
         }
 
-        public Pessoa Update(Pessoa pessoa)
+        public  void Update(Pessoa pessoa)
         {
-            return _PessoaRepository.Update(pessoa);
+            _PessoaRepository.Update(pessoa);
         }
 
 

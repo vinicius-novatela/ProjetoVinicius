@@ -1,4 +1,5 @@
-﻿using ProjetoVinicius.Infra.Data.Contexto;
+﻿using ProjetoVinicius.Domain.Entities;
+using ProjetoVinicius.Infra.Data.Contexto;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -13,16 +14,11 @@ namespace ProjetoVinicius.Infra.Data.Repositories
        
 
         protected ProjetoViniciusContexto Db;
-        protected DbSet<TEntity> DbSet;
 
         public RepositoryBase()
         {
             Db = new ProjetoViniciusContexto();
-            DbSet = Db.Set<TEntity>();
-
         }
-
-
         public void Add(TEntity obj)
         {
             Db.Set<TEntity>().Add(obj);
@@ -38,7 +34,7 @@ namespace ProjetoVinicius.Infra.Data.Repositories
         public IEnumerable<TEntity> GetAll()
         {
             return Db.Set<TEntity>().ToList();
-        }
+        }       
 
         public virtual TEntity Update(TEntity obj)
         {

@@ -12,3 +12,17 @@ C:\projetos\ProjetoVinicius2\ProjetoVinicius.Services\bin\Debug\ProjetoVinicius.
 C:\projetos\ProjetoVinicius2\ProjetoVinicius.Services\bin\Debug\ProjetoVinicius.Domain.pdb
 C:\projetos\ProjetoVinicius2\ProjetoVinicius.Services\bin\Debug\EntityFramework.xml
 C:\projetos\ProjetoVinicius2\ProjetoVinicius.Services\obj\Debug\ProjetoVinicius.Services.csproj.CopyComplete
+C:\projetos\ProjetoVinicius\ProjetoVinicius.Services\bin\Debug\ProjetoVinicius.Services.dll
+C:\projetos\ProjetoVinicius\ProjetoVinicius.Services\bin\Debug\ProjetoVinicius.Services.pdb
+C:\projetos\ProjetoVinicius\ProjetoVinicius.Services\bin\Debug\ProjetoVinicius.Data.dll
+C:\projetos\ProjetoVinicius\ProjetoVinicius.Services\bin\Debug\ProjetoVinicius.Domain.dll
+C:\projetos\ProjetoVinicius\ProjetoVinicius.Services\bin\Debug\EntityFramework.dll
+C:\projetos\ProjetoVinicius\ProjetoVinicius.Services\bin\Debug\ProjetoVinicius.Data.pdb
+C:\projetos\ProjetoVinicius\ProjetoVinicius.Services\bin\Debug\ProjetoVinicius.Data.dll.config
+C:\projetos\ProjetoVinicius\ProjetoVinicius.Services\bin\Debug\ProjetoVinicius.Domain.pdb
+C:\projetos\ProjetoVinicius\ProjetoVinicius.Services\bin\Debug\EntityFramework.xml
+C:\projetos\ProjetoVinicius\ProjetoVinicius.Services\obj\Debug\ProjetoVinicius.Services.csprojResolveAssemblyReference.cache
+C:\projetos\ProjetoVinicius\ProjetoVinicius.Services\obj\Debug\ProjetoVinicius.Services.csproj.CoreCompileInputs.cache
+C:\projetos\ProjetoVinicius\ProjetoVinicius.Services\obj\Debug\ProjetoVinicius.Services.csproj.CopyComplete
+C:\projetos\ProjetoVinicius\ProjetoVinicius.Services\obj\Debug\ProjetoVinicius.Services.dll
+C:\projetos\ProjetoVinicius\ProjetoVinicius.Services\obj\Debug\ProjetoVinicius.Services.pdb

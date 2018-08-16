@@ -56,16 +56,17 @@ namespace ProjetoVinicius.UI.MVC.Controllers
         }
      
         [HttpPost]
-        public ActionResult Edit(Pessoa pessoa)
+        public ActionResult edit(int id)
         {
             try
             {
+                Pessoa pessoa = _PessoaService.GetPessoa(id);
                 _PessoaService.Update(pessoa);
                 return RedirectToAction("Index");
             }
             catch
             {
-                return View();
+                return View(new Pessoa());
             }
         }
 
@@ -88,7 +89,7 @@ namespace ProjetoVinicius.UI.MVC.Controllers
         {
             try
             {
-                Pessoa pessoa = _PessoaService.GetPessoa(id);
+                 Pessoa pessoa = _PessoaService.GetPessoa(id);
                 _PessoaService.Remove(pessoa);
                 return RedirectToAction("Index");
             }
