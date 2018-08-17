@@ -201,8 +201,8 @@ C:\projetos\ProjetoVinicius\ProjetoVinicius.UI.MVC\bin\Microsoft.AI.DependencyCo
 C:\projetos\ProjetoVinicius\ProjetoVinicius.UI.MVC\bin\Microsoft.AI.WindowsServer.xml
 C:\projetos\ProjetoVinicius\ProjetoVinicius.UI.MVC\bin\Microsoft.AI.Web.xml
 C:\projetos\ProjetoVinicius\ProjetoVinicius.UI.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\projetos\ProjetoVinicius\ProjetoVinicius.UI.MVC\obj\Debug\ProjetoVinicius.UI.MVC.csprojResolveAssemblyReference.cache
 C:\projetos\ProjetoVinicius\ProjetoVinicius.UI.MVC\obj\Debug\ProjetoVinicius.UI.MVC.csproj.CoreCompileInputs.cache
 C:\projetos\ProjetoVinicius\ProjetoVinicius.UI.MVC\obj\Debug\ProjetoVinicius.UI.MVC.csproj.CopyComplete
 C:\projetos\ProjetoVinicius\ProjetoVinicius.UI.MVC\obj\Debug\ProjetoVinicius.UI.MVC.dll
 C:\projetos\ProjetoVinicius\ProjetoVinicius.UI.MVC\obj\Debug\ProjetoVinicius.UI.MVC.pdb
+C:\projetos\ProjetoVinicius\ProjetoVinicius.UI.MVC\obj\Debug\ProjetoVinicius.UI.MVC.csprojAssemblyReference.cache

@@ -11,13 +11,15 @@ namespace ProjetoVinicius.UI.MVC.Controllers
     public class PessoasController : Controller
     {
 
-        PessoaService _PessoaService = new PessoaService();
+        //PessoaService _PessoaService = new PessoaService();
 
-        //private readonly PessoaService _PessoaService;
-        //PessoasController()
-        //{
-        //    _PessoaService = new PessoaService();
-        //}
+        protected PessoaService _PessoaService;
+        public PessoasController()
+        {
+            _PessoaService = new PessoaService();
+        }
+
+        
 
         public ActionResult Index()
         {
@@ -56,12 +58,11 @@ namespace ProjetoVinicius.UI.MVC.Controllers
         }
      
         [HttpPost]
-        public ActionResult edit(int id)
+        public ActionResult Edit(Pessoa obj)
         {
             try
-            {
-                Pessoa pessoa = _PessoaService.GetPessoa(id);
-                _PessoaService.Update(pessoa);
+            {            
+                _PessoaService.Update(obj);
                 return RedirectToAction("Index");
             }
             catch

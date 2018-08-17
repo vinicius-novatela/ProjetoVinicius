@@ -21,8 +21,8 @@ C:\projetos\ProjetoVinicius\ProjetoVinicius.Data\bin\Debug\ProjetoVinicius.Domai
 C:\projetos\ProjetoVinicius\ProjetoVinicius.Data\bin\Debug\ProjetoVinicius.Domain.pdb
 C:\projetos\ProjetoVinicius\ProjetoVinicius.Data\bin\Debug\EntityFramework.xml
 C:\projetos\ProjetoVinicius\ProjetoVinicius.Data\bin\Debug\EntityFramework.SqlServer.xml
-C:\projetos\ProjetoVinicius\ProjetoVinicius.Data\obj\Debug\ProjetoVinicius.Data.csprojResolveAssemblyReference.cache
 C:\projetos\ProjetoVinicius\ProjetoVinicius.Data\obj\Debug\ProjetoVinicius.Data.csproj.CoreCompileInputs.cache
 C:\projetos\ProjetoVinicius\ProjetoVinicius.Data\obj\Debug\ProjetoVinicius.Data.csproj.CopyComplete
 C:\projetos\ProjetoVinicius\ProjetoVinicius.Data\obj\Debug\ProjetoVinicius.Data.dll
 C:\projetos\ProjetoVinicius\ProjetoVinicius.Data\obj\Debug\ProjetoVinicius.Data.pdb
+C:\projetos\ProjetoVinicius\ProjetoVinicius.Data\obj\Debug\ProjetoVinicius.Data.csprojAssemblyReference.cache
