@@ -1,4 +1,26 @@
-﻿
+﻿$(Document).ready(function () {
+
+
+
+
+
+})
+
+
+
+$("#form-panel-renal").validate({
+        errorClass: "input-error",
+        rules: {
+            nome: "required",
+            cpf: "required",
+            cep: "required",
+            sexo: "required",
+            rua: "required",
+            bairro: "required",
+            estado: "required",
+            data: "required",        
+        },       
+});
 
 
 function DeletePessoa(id) {
