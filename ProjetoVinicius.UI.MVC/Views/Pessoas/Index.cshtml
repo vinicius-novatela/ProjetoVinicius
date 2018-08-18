@@ -64,15 +64,13 @@
         <td>
             @item.Data
         </td>
-        @*<td>
-            <a href="#" onclick="DeletePessoa(@item.IdPessoa)">Delete</a> //ajax
+        <td>
+            <a href="#" onclick="DeletePessoa(@item.IdPessoa)">Delete</a>
         </td>
+       
         <td>
-            <a href="#" onclick="DeletePessoa(@item.IdPessoa)">Edit</a>
-        </td>*@
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id = item.IdPessoa }) |
-            @Html.ActionLink("Delete", "Delete", new { id = item.IdPessoa })
+            @Html.ActionLink("Edit", "Edit", new { id = item.IdPessoa })
+            @*@Html.ActionLink("Delete", "Delete", new { id = item.IdPessoa })*@
         </td>
 
     </tr>
@@ -80,4 +78,4 @@
 
 </table>
 
-<script src="~/Scripts/Pessoa.js"></script>
+@*<script src="~/Scripts/Pessoa.js"></script>*@

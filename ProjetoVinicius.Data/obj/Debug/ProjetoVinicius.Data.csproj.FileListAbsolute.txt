@@ -25,4 +25,4 @@ C:\projetos\ProjetoVinicius\ProjetoVinicius.Data\obj\Debug\ProjetoVinicius.Data.
 C:\projetos\ProjetoVinicius\ProjetoVinicius.Data\obj\Debug\ProjetoVinicius.Data.csproj.CopyComplete
 C:\projetos\ProjetoVinicius\ProjetoVinicius.Data\obj\Debug\ProjetoVinicius.Data.dll
 C:\projetos\ProjetoVinicius\ProjetoVinicius.Data\obj\Debug\ProjetoVinicius.Data.pdb
-C:\projetos\ProjetoVinicius\ProjetoVinicius.Data\obj\Debug\ProjetoVinicius.Data.csprojAssemblyReference.cache
+C:\projetos\ProjetoVinicius\ProjetoVinicius.Data\obj\Debug\ProjetoVinicius.Data.csprojResolveAssemblyReference.cache

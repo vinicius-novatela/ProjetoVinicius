@@ -71,35 +71,50 @@ namespace ProjetoVinicius.UI.MVC.Controllers
             }
         }
 
-        public ActionResult Delete(int id)
-        {
-            try
-            {
-               Pessoa pessoa =_PessoaService.GetPessoa(id);          
-               return View(pessoa);
-            }
-            catch
-            {
-                return RedirectToAction("Index");
-            }
-        }
+        //public ActionResult Delete(int id)
+        //{
+        //    try
+        //    {
+        //       Pessoa pessoa =_PessoaService.GetPessoa(id);          
+        //       return View(pessoa);
+        //    }
+        //    catch
+        //    {
+        //        return RedirectToAction("Index");
+        //    }
+        //}
 
       
+        //[HttpPost]
+        //public ActionResult delete(int id)
+        //{
+        //    try
+        //    {
+        //         Pessoa pessoa = _PessoaService.GetPessoa(id);
+        //        _PessoaService.Remove(pessoa);
+        //        return RedirectToAction("Index");
+        //    }
+        //    catch
+        //    {
+        //        return View(new Pessoa());
+        //    }         
+        //}
         [HttpPost]
-        public ActionResult delete(int id)
+        public JsonResult DeletePessoa(int id)
         {
+            var msg = "";
             try
             {
-                 Pessoa pessoa = _PessoaService.GetPessoa(id);
-                _PessoaService.Remove(pessoa);
-                return RedirectToAction("Index");
+               var Pessoa = _PessoaService.GetPessoa(id);
+                _PessoaService.Remove(Pessoa);
+                msg = "1";
             }
             catch
             {
-                return View(new Pessoa());
-            }         
+                msg = "2";
+            }
+            return Json(msg);
         }
-
 
     }
 }

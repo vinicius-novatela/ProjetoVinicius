@@ -8,6 +8,11 @@ namespace ProjetoVinicius.UI.MVC
         // For more information on bundling, visit https://go.microsoft.com/fwlink/?LinkId=301862
         public static void RegisterBundles(BundleCollection bundles)
         {
+            bundles.Add(new ScriptBundle("~/bundles/Pessoa").Include(
+                 "~/Scripts/jquery-3.3.1.min.js",
+                 "~/Scripts/jquery.validate.js",
+                 "~/Scripts/Pessoa.js"));
+
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js"));
 
@@ -25,6 +30,9 @@ namespace ProjetoVinicius.UI.MVC
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            BundleTable.EnableOptimizations = true;
+            // ou WebConfig Compilation debug = "true" mudar para false
         }
     }
 }
