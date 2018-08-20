@@ -17,9 +17,7 @@ namespace ProjetoVinicius.UI.MVC.Controllers
         public PessoasController()
         {
             _PessoaService = new PessoaService();
-        }
-
-        
+        }      
 
         public ActionResult Index()
         {
@@ -70,35 +68,7 @@ namespace ProjetoVinicius.UI.MVC.Controllers
                 return View(new Pessoa());
             }
         }
-
-        //public ActionResult Delete(int id)
-        //{
-        //    try
-        //    {
-        //       Pessoa pessoa =_PessoaService.GetPessoa(id);          
-        //       return View(pessoa);
-        //    }
-        //    catch
-        //    {
-        //        return RedirectToAction("Index");
-        //    }
-        //}
-
-      
-        //[HttpPost]
-        //public ActionResult delete(int id)
-        //{
-        //    try
-        //    {
-        //         Pessoa pessoa = _PessoaService.GetPessoa(id);
-        //        _PessoaService.Remove(pessoa);
-        //        return RedirectToAction("Index");
-        //    }
-        //    catch
-        //    {
-        //        return View(new Pessoa());
-        //    }         
-        //}
+       
         [HttpPost]
         public JsonResult DeletePessoa(int id)
         {

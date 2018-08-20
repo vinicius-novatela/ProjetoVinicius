@@ -1,9 +1,5 @@
 ﻿
 $(document).ready(function () {
-
-
-
-
     $("#form").validate({
         rules: {
             nome: "required",
@@ -17,8 +13,6 @@ $(document).ready(function () {
         },
     });
 });
-
-
 
 function DeletePessoa(id) {
     $.ajax({
