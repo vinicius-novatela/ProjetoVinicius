@@ -8,7 +8,7 @@ namespace ProjetoVinicius.UI.MVC
         // For more information on bundling, visit https://go.microsoft.com/fwlink/?LinkId=301862
         public static void RegisterBundles(BundleCollection bundles)
         {
-            bundles.Add(new ScriptBundle("~/bundles/Pessoa").Include(
+            bundles.Add(new ScriptBundle("~/bundles/Usuario").Include(
                  "~/Scripts/jquery-3.3.1.min.js",
                  "~/Scripts/jquery.validate.js",
                  "~/Scripts/Pessoa.js"));

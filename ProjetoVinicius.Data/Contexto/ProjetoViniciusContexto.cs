@@ -16,6 +16,6 @@ namespace ProjetoVinicius.Infra.Data.Contexto
         public ProjetoViniciusContexto() : base("ProjetoViniciusConection")
         {
         }
-        public DbSet<Pessoa> Pessoa { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
     }
 }

@@ -1,0 +1,80 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<td>
+    @Html.ActionLink("Novo", "Create")
+</td>
+<table class="table">
+    <tr>
+        <th>
+            Nome
+        </th>
+        <th>
+            Cpf
+        </th>
+        <th>
+            Cep
+        </th>
+        <th>
+            Rua
+        </th>
+        <th>
+            Bairro
+        </th>
+        <th>
+            Estado
+        </th>
+        <th>
+            Sexo
+        </th>
+        <th>
+            Data
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>
+            @item.nome
+        </td>
+        <td>
+            @item.cpf
+        </td>
+        <td>
+            @item.cep
+        </td>
+        <td>
+            @item.rua
+        </td>
+        <td>
+            @item.bairro
+        </td>
+        <td>
+            @item.estado
+        </td>
+        <td>
+            @item.sexo
+        </td>
+        <td>
+            @item.Data
+        </td>
+        <td>
+            <a href="#" onclick="DeletePessoa(@item.IdPessoa)">Delete</a>
+        </td>
+       
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.IdPessoa })
+            @*@Html.ActionLink("Delete", "Delete", new { id = item.IdPessoa })*@
+        </td>
+
+    </tr>
+    }
+
+</table>
+

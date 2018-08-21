@@ -8,20 +8,20 @@ using System.Web.Mvc;
 
 namespace ProjetoVinicius.UI.MVC.Controllers
 {
-    public class PessoasController : Controller
+    public class UsuarioController : Controller
     {
 
         //PessoaService _PessoaService = new PessoaService();
 
-        protected PessoaService _PessoaService;
-        public PessoasController()
+        protected UsuarioService _UsuarioService;
+        public UsuarioController()
         {
-            _PessoaService = new PessoaService();
+            _UsuarioService = new UsuarioService();
         }      
 
         public ActionResult Index()
         {
-            return View(_PessoaService.GetAll());
+            return View(_UsuarioService.GetAll());
         }
       
         public ActionResult Create()
@@ -29,11 +29,11 @@ namespace ProjetoVinicius.UI.MVC.Controllers
             return View();
         }
         [HttpPost]
-        public ActionResult Create(Pessoa pessoa)
+        public ActionResult Create(Usuario usuario)
         {
             try
             {
-                _PessoaService.Add(pessoa);
+                _UsuarioService.Add(usuario);
                 return RedirectToAction("Index");
             }
             catch
@@ -46,8 +46,8 @@ namespace ProjetoVinicius.UI.MVC.Controllers
         {
             try
             {
-                Pessoa pessoa = _PessoaService.GetPessoa(id);
-                return View(pessoa);
+                Usuario usuario = _UsuarioService.GetUsuarioId(id);
+                return View(usuario);
             }
             catch
             {               
@@ -56,16 +56,16 @@ namespace ProjetoVinicius.UI.MVC.Controllers
         }
      
         [HttpPost]
-        public ActionResult Edit(Pessoa obj)
+        public ActionResult Edit(Usuario obj)
         {
             try
-            {            
-                _PessoaService.Update(obj);
+            {
+                _UsuarioService.Update(obj);
                 return RedirectToAction("Index");
             }
             catch
             {
-                return View(new Pessoa());
+                return View(new Usuario());
             }
         }
        
@@ -75,8 +75,8 @@ namespace ProjetoVinicius.UI.MVC.Controllers
             var msg = "";
             try
             {
-               var Pessoa = _PessoaService.GetPessoa(id);
-                _PessoaService.Remove(Pessoa);
+               var usuario = _UsuarioService.GetUsuarioId(id);
+                _UsuarioService.Remove(usuario);
                 msg = "1";
             }
             catch

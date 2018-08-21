@@ -9,4 +9,3 @@ C:\projetos\ProjetoVinicius\ProjetoVinicius.Domain\bin\Debug\ProjetoVinicius.Dom
 C:\projetos\ProjetoVinicius\ProjetoVinicius.Domain\obj\Debug\ProjetoVinicius.Domain.csproj.CoreCompileInputs.cache
 C:\projetos\ProjetoVinicius\ProjetoVinicius.Domain\obj\Debug\ProjetoVinicius.Domain.dll
 C:\projetos\ProjetoVinicius\ProjetoVinicius.Domain\obj\Debug\ProjetoVinicius.Domain.pdb
-C:\projetos\ProjetoVinicius\ProjetoVinicius.Domain\obj\Debug\ProjetoVinicius.Domain.csprojResolveAssemblyReference.cache
